@@ -1,0 +1,54 @@
+body {
+  background-color: rgb(228, 228, 228);
+}
+@keyframes jatuh {
+  0%{transform: scale(0);}
+  100%{transform: scale(1);}
+}
+.col-md-4 {
+  padding-top: 150px;
+}
+.panel {
+  border-radius: 0px;
+  border-top: none;
+  border-left: none;
+  border-bottom: none;
+  border-right: none;
+  animation: jatuh 1s;
+}
+.panel-heading {
+  background-color: rgb(177, 71, 72) !important;
+  border-radius: 0px;
+  color: white !important;
+  text-align: center;
+}
+.input-group {
+  margin-bottom: 20px;
+}
+input[type="text"], input[type="password"] {
+  border-radius: 0px;
+  border-bottom: 1px solid rgb(177, 71, 72);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  box-shadow: none !important;
+}
+.input-group-addon {
+  border-radius: 0px;
+  background-color: white;
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+}
+.btn {
+  border-radius: 0px;
+  margin-left: 35%;
+  margin-top: 15px;
+}
+.panel-footer a {
+  margin-left: 100px;
+}
+h5 {
+  font-size: 12px !important;
+  text-align: center;
+}
